@@ -1,0 +1,196 @@
+body {
+  padding: 0;
+  margin: 0px;
+  background: #f08c28;
+}
+
+.navbar {
+  background: #f08c28;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.dida {
+  font-style: normal;
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.fonte {
+  font-style: italic;
+    color: black;
+    font-weight: normal;
+    font-size: 12px;
+   margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+.fonte_b {
+  font-style: italic;
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.note {
+  font-style: normal;
+  color: black;
+  font-weight: normal;
+  font-size: 14px;
+  background-color: ffffff;
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: justify;
+}
+  
+.autore {
+  font-style: normal;
+  color: black;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+}
+  
+.navbar-custom {
+  background-color: orange;
+}
+
+#sfondo_1{
+  height: 0px;
+  background-color: #f08c28
+}
+
+.box{
+  background-color: rgb(231, 230, 230);
+  padding: 20px;
+}
+
+#sfondo_2 {
+  height: 200px;
+  background-color: lightgrey;
+  background-image: url("img/map_afar.jpg");
+  background-repeat: no-repeat;
+}
+
+
+#demo {
+  background-color:white;
+  font-style: normal;
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+
+#demo_carto {
+  background-color:white;
+  font-style: normal;
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#demo_dataset {
+  background-color:white;
+  font-style: normal;
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  background-color: #f08c28;
+  color: black;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 5px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  margin: 0px;
+}
+
+.column_3 {
+  float: left;
+  width: 33%;
+  padding: 5px;
+}
+
+
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.firstcharacter {
+    color: #903;
+    float: left;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+  }
+
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } 
+
+  .clearfix {
+    clear: both;
+  }
